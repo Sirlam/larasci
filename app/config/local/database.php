@@ -22,10 +22,10 @@ return array(
 
 		'mysql' => array(
 			'driver'    => 'mysql',
-			'host'      => 'localhost:3309',
+			'host'      => 'localhost:3306',
 			'database'  => 'larasci',
-			'username'  => 'sci_user',
-			'password'  => 'uKSnEuYecVpEzY4E',
+			'username'  => 'root',
+			'password'  => 'root',
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',

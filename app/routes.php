@@ -34,3 +34,6 @@ Route::group(['prefix' => 'password'], function(){
 
 //home route
 Route::get('/', 'HomeController@index');
+
+//Log viewer route
+Route::get('logs', '\Rap2hpoutre\LaravelLogViewer\LogViewerController@index');

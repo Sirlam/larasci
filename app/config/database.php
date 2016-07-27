@@ -54,10 +54,10 @@ return array(
 
 		'mysql' => array(
 			'driver'    => 'mysql',
-			'host'      => 'localhost',
-			'database'  => 'msolomos_call4free',
-			'username'  => 'call4freeDB_user',
-			'password'  => 'b753j1jV1',
+			'host'      => 'localhost:3306',
+			'database'  => 'larasci',
+			'username'  => 'root',
+			'password'  => 'root',
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',

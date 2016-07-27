@@ -26,7 +26,7 @@ $app = new Illuminate\Foundation\Application;
 
 $env = $app->detectEnvironment(array(
 
-	'local' => array('homestead', 'xwiz'),
+	'local' => array('homestead', 'xwiz', 'LANRE-PC'),
 
 ));
 

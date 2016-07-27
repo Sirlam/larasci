@@ -17,6 +17,8 @@ class HomeController extends BaseController {
 
     public function index()
     {
+        Log::info(DB::getQueryLog());
+
         //get the last registered 4 members
         $members = User::orderBy('created_at', 'desc')->take(4)->get();
         //create view with collection
